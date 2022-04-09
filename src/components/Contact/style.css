@@ -1,0 +1,24 @@
+
+.viewFive {
+   
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -10vh;
+}
+
+
+
+#contactTitle {
+    padding-bottom: 2vh;
+}
+
+.contact-row {
+    margin-top: 10vh;
+}
+
+@media only screen and (max-width: 540px) {
+    .formDiv {
+        width: 80vw;
+    }
+}

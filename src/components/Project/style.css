@@ -1,0 +1,189 @@
+@import url(https://fonts.googleapis.com/css?family=Calibri:400,300,700);
+
+grid-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #d8d5d5;
+}
+.container {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+}
+
+.neo-button repoLink {
+    margin-top: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: lightblue;
+}
+
+.neo-button button {
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70px;
+    height: 35px;
+
+}
+
+.col 
+
+    {
+        display: flex;
+        width: 73%;
+        justify-content:center;
+        margin:0 auto;
+    }
+
+.row {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card img {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+proj img {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60px;
+    height: 35px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 11px;
+    background: linear-gradient(145deg, #f5f7fa, #f6fafa);
+    box-shadow: 6px 6px 13px #f4f4f7, -6px -6px 13px #f1ebeb
+}
+
+
+.neo-button {
+    width: 70px;
+    height: 35px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: rgb(157, 159, 163);
+    border-radius: 11px;
+    background: linear-gradient(145deg, #e3e5e9, #eaf1f1);
+    box-shadow: 3px 6px 13px #d3cece, -6px -6px 10px #fcf8f8
+}
+
+.row > div {
+    flex-basis: 27%; /* or - flex: 0 50% - or - flex-basis: 50% - */
+    /*demo*/
+ 
+    
+  justify-content: center;
+    padding: 5px;
+    margin: 3px;
+
+  }
+
+
+.neo-button:hover {
+    width: 70px;
+    height: 35px;
+    border: none;
+    outline: none;
+    color: rgb(111, 112, 114);
+    border-radius: 11px;
+    background: linear-gradient(145deg, #dbe0e0, #f6f8fa);
+    box-shadow: 3px 6px 13px #f3f1f1, -6px -6px 10px #f1ecec
+}
+
+#pp {
+    width: 80px;
+    height: 45px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: rgb(111, 112, 114);
+    border-radius: 11px;
+    background: linear-gradient(145deg, #f1eeee, #faf8f8);
+    box-shadow: 6px 6px 13px #e2e2e4, -3px -3px 13px #e6dfdf
+}
+
+#pp:hover {
+    width: 80px;
+    height: 45px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: rgb(111, 112, 114);
+    border-radius: 11px;
+    background: linear-gradient(145deg, #e4e1e1, #eff3f3);
+    box-shadow: 6px 6px 13px #f8f6f6, -6px -6px 13px #f1eeee
+}
+
+.neo-button .fa {
+    color: rgb(166, 166, 173)
+}
+
+
+ul {
+    padding: 0px;
+}
+
+.proj {
+    border-radius: 11px;
+}
+
+.container card {
+    background-color: #c7cece;
+}
+
+p {
+    margin: 3px;
+    padding: 3px;
+}
+
+.container row col {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* CSS */
+.button-67 {
+  align-items: center;
+  background: #f5f5fa;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: -10px -10px 30px 0 #fff,10px 10px 30px 0 #1d0dca17;
+  box-sizing: border-box;
+  color: #2a1f62;
+  cursor: pointer;
+  display: flex;
+  font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
+  font-size: 1rem;
+  justify-content: center;
+  line-height: 1.5rem;
+  padding: 15px;
+  position: relative;
+  text-align: left;
+  transition: .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+  width: max-content;
+  word-break: normal;
+  word-spacing: normal;
+}
+
+.button-67:hover {
+  background: #f8f8ff;
+  box-shadow: -15px -15px 30px 0 #fff, 15px 15px 30px 0 #1d0dca17;
+}
+
+@media (min-width: 768px) {
+  .button-67 {
+    padding: 24px;
+  }
+}
+        

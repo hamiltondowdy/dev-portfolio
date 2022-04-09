@@ -1,0 +1,135 @@
+li {
+    list-style: none;
+}
+
+h3 {
+    align-items: center;
+}
+img {
+    max-height: 250px;
+    align-items: center;
+justify-content: center;
+padding: 20px;
+} 
+
+.row img  {
+    align-items: center;
+justify-content: center;
+}
+
+align-self-center container-fluid {
+    align-items: center;
+}
+row {
+    display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+justify-content: center;
+
+
+}
+
+.pad button {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 20px;
+    width: 100px;
+}
+
+.pad button:hover {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 20px;
+    width: 100px;
+}
+
+.aboot {
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 11px;
+    background: linear-gradient(145deg, #ebedee, #d7e1e6);
+    box-shadow: inset 6px 6px 13px #e4e2e2, inset -6px -6px 13px #f3f5f5;
+}
+
+
+.boxy {
+    position: relative;
+}
+
+.pad a {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 20px;
+    width: 100px;
+}
+
+.pad a:hover {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 20px;
+    width: 100px;
+}
+
+
+.row > div {
+    flex-basis: 27%; /* or - flex: 0 50% - or - flex-basis: 50% - */
+    /*demo*/
+ 
+    
+  justify-content: center;
+    padding: 5px;
+    margin: 3px;
+
+  }
+
+viewThree col-md {
+      align-items: center;
+      max-width: 90%;
+  }
+
+.about h3 {
+    align-items: center;
+}
+
+.pfp:hover {
+    opacity: 0;
+    box-shadow:5 5 15px; 
+}
+
+.pfp img {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gif {
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    width: 240px;
+    margin-bottom: 2px;
+    border-radius: 15px;
+    vertical-align: bottom;
+  }
+  
+.pfp {
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    position:relative;
+    width: 240px;
+    margin-bottom: 2px;
+    border-radius: 15px;
+    vertical-align: bottom;
+  }
+
+ img {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 11px;
+
+    box-shadow: 6px 6px 13px #e1e1e4, -6px -6px 13px #e7e6e6
+}

@@ -1,0 +1,18 @@
+[  
+    {
+   "title": "Penguin Post",
+   "image": "https://i.imgur.com/j65cJDQ.png",
+   "about": 
+       "Twitter, basically",
+   "technologies": ["MongoDB", "ReactJS", "NodeJS", "Express", "Leaflet", "MapBox", "Material UI", "Google Authentication API", "Dicebar API", "ToneJS", "ESlint"],
+   "repo": "https://github.com/hamiltondowdy/penguin-post"
+},
+{
+    "title": "Personal Portfolio",
+    "image": "./assets/img/portimg.png",
+    "about": 
+        "Web Development Portfolio",
+    "technologies": ["ReactJS", "NodeJS", "ESlint"],
+    "repo": "https://github.com/hamiltondowdy/dev-portfolio"
+ }
+]
