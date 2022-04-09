@@ -1,0 +1,13 @@
+header {
+    background: linear-gradient(145deg, #efe9e99b, #ffffff);
+    box-shadow: 6px 6px 13px #f0f0f3, -3px -3px 13px #e6dfdf
+}
+
+#hero {
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url("../../img/hero4.png");
+    background-size: fit;
+    height: 400px;
+}
+
