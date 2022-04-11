@@ -2,3 +2,13 @@ pad {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+a {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#res {
+    flex-wrap: wrap;
+    justify-content: center;
+}

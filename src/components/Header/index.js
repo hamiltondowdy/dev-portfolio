@@ -1,22 +1,27 @@
 import React from "react";
+import WelcomePage from "../Welcome";
+import NavBar from "../Navbar";
+import 'font-awesome/css/font-awesome.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from "../Navbar";
+import Headbutt from "../Headbutt";
+import { Row } from "react-bootstrap";
+
 import "./style.css"
+
+
 function Header() {
 
     return (
 
 <header>
   
+      <NavBar />
+      <Headbutt />
+      <WelcomePage />
 
-  <Navbar />
+    <Row>
 
- 
-  <div class="p-5 text-center bg-light" id="hero">
-    <h1 class="mb-3" id="hero-text">Full Stack Web Developer</h1>
-    <button className="neo-button">More</button>
-  </div>
-
+    </Row>
 
 </header>
 

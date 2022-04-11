@@ -2,7 +2,7 @@
 
 body {
     text-align: center;
-    font-family: 'Calibri', sans-serif !important;
+    font-family: 'Lato', sans-serif;
     background-color: #e9eaeb
 }
 
@@ -10,7 +10,7 @@ body {
     margin-top: 10px;
     padding: 10px;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .social-buttons button {
@@ -20,39 +20,35 @@ body {
 .neo-button {
     position: center;
     text-decoration: none;
-    padding: 0px 0px;
-    text-transform: uppercase;
     text-align: center;
+    text-transform: uppercase;
     font-weight: 500;
     letter-spacing: 2px;
     color: #5a84a2;
-    font-size: 12px;
-    border-radius: 40px;
-    box-shadow: -2px -2px 8px rgba(255, 255, 255, 1),
-        -2px -2px 12px rgba(255, 255, 255, 0.5),
-        inset 2px 2px 4px rgba(255, 255, 255, 0.1),
-        2px 2px 8px rgba(0, 0, 0, 0.15);
+    font-size: 11px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    background: linear-gradient(145deg, #ecedef, #f3f6f6);
+    box-shadow: 3px 6px 10px #d3cece, -3px -6px 10px #ffffff
 }
 
 
 .neo-button:hover {
     
-    box-shadow: inset -2px -2px 8px rgba(255, 255, 255, 1),
-        inset -2px -2px 12px rgba(255, 255, 255, 0.5),
-        inset 2px 2px 4px rgba(255, 255, 255, 0.1),
-        inset 2px 2px 8px rgba(0, 0, 0, 0.15);
+    background: linear-gradient(145deg, #f5f7f7, #e7e9eb);
+    box-shadow: 3px 6px 13px #f3f1f1, -6px -6px 10px #f8f5f5
 }
 
 .neo-button .fa {
     flex-wrap: wrap;
     justify-content: center;
-    color: rgb(213, 213, 219)
+    color: rgb(175, 175, 176)
 }
 
 h3 {
     flex-wrap: wrap;
     justify-content: center;
     border-radius: 11px;
-    background: linear-gradient(145deg, #ebedee, #d7e1e6);
-    box-shadow: inset 6px 6px 13px #e4e2e2, inset -6px -6px 13px #f3f5f5;
+
 }

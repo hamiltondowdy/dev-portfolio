@@ -2,12 +2,18 @@ nav-item {
     position: relative;
 }
 
+Navbar {
+   
+    background-color: aliceblue;
+}
+
 offcanvas-body {
     position: relative;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: rgb(169, 192, 192);
+    background-color: rgb(48, 48, 48);
 }
+
 
 navbar-nav {
     flex-wrap: wrap;

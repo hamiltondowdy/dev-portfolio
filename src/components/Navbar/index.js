@@ -8,9 +8,10 @@ import "./style.css";
 function NavBar() {
 return (
 
-  <Navbar expand={false}>
+  <Navbar  sticky="top" expand={false}>
   <Container fluid>
     <Navbar.Brand href="#"><h1>Hamilton Dowdy</h1></Navbar.Brand>
+    
     <Navbar.Toggle aria-controls="offcanvasNavbar" />
     <Navbar.Offcanvas
       id="offcanvasNavbar"
