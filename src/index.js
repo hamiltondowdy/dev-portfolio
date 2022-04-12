@@ -23,7 +23,9 @@ import {
 
 
 ReactDOM.render(
-  <Router>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
+
+<Router>
 
     <Routes>
       <Route path="/" element={<Header />} />
@@ -34,7 +36,10 @@ ReactDOM.render(
     </Routes>
 
   
-  </Router>,
+  </Router>
+    
+  </BrowserRouter>
+  ,
 
   document.getElementById("root")
 );
