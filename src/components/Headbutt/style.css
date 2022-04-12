@@ -1,12 +1,24 @@
 #butt {
-    font-size: 100px;
-
-
+    font-size:80px;
+    opacity: .75;
+        transition: all .7s ease-in-out; 
+        
+    color:rgb(44, 44, 44);
     box-shadow: none
 }
 
+#butt:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
 
+#map {
+    width: 100%;
+   
+        opacity: .95;
+       
 
+}
 
 
 
@@ -14,11 +26,12 @@ header .btnContainer {
     position: absolute;
 
 
-top: 30%;
-left: 0;
-right: 0;
+top: 35%;
+width: 100%;
 
 
 }
 
-
+#project {
+    width: 100px;
+}

@@ -2,11 +2,14 @@ import React from "react";
 import "./style.css";
 import Socials from "../Socials"
 import { Row, Col, Container } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "../Navbar";
 
 function Contact() {
     return (
-
-        <Container fluid="md">
+        <div class="container" id="contact">
+          <Navbar />
+<Container id="abt">
   <Row>
     <Col>
     <div className="col-md">
@@ -17,6 +20,8 @@ function Contact() {
        </Col>
   </Row>
 </Container>
+        </div>
+       
 
 
     );

@@ -1,6 +1,7 @@
 import React from "react";
 import projects from "../../projects.json";
-
+import Navbar from "../Navbar";
+import "aframe";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ProjImg from "../../img/proj2.png";
 import "./style.css"
@@ -12,42 +13,62 @@ function Project() {
         // project is an even number, it will image left and text right
         if (projects.indexOf(project) === 0 || projects.indexOf(project) %2 === 0 ) {
             return (
+              
+       <div id="projctr">
+         
+         <Navbar />
+        
+         
 
-            <Container className="container-md justify-content-center" id="projs">
-             <Row className="container-md justify-content-center">
-     
-  <h3 className="justify-content-center">PROJECTS</h3>
-    
-        <Col className="col-md">
-        <Card style={{ width: '18rem' , backgroundColor: '#f1f2f5'}} id="project">
-  <Card.Img variant="top" src={ProjImg} />
-  <Card.Body>
-    <Card.Title>Penguin Post</Card.Title>
-    <Card.Text>
-      A social media app
-    </Card.Text>
-    <Button variant="primary" className="neo-button" id="pp"><i className="fa fa-github fa-2x"> </i></Button>
-  </Card.Body>
+    <div class="d-flex align-items-center justify-content-center" id="contain">
+              
+              <Row className="justify-content-center">
+
+             
+<h3 className="justify-content-center">PROJECTS</h3>
+
+<Col className="col-md">
+<Card style={{ width: '18rem' , backgroundColor: '#f1f2f5'}} id="project">
+<Card.Img variant="top" src={ProjImg} />
+<Card.Body>
+<Card.Title>Penguin Post</Card.Title>
+<Card.Text>
+A social media app
+</Card.Text>
+<Button variant="primary" className="neo-button" id="pp"><i className="fa fa-github fa-2x"> </i></Button>
+</Card.Body>
 </Card>
 </Col>       
 
 
 <Col>
 <Card style={{ width: '18rem' , backgroundColor: '#f1f2f5' }} id="project">
-  <Card.Img variant="top"  width="70%" src={PortImg} />
-  <Card.Body>
-    <Card.Title>Personal Portfolio</Card.Title>
-    <Card.Text>
-     Web Development Portfolio
-    </Card.Text>
-    <Button variant="primary" className="neo-button" id="pp"><i className="fa fa-github fa-2x"> </i></Button>
-  </Card.Body>
+<Card.Img variant="top"  width="70%" src={PortImg} />
+<Card.Body>
+<Card.Title>Personal Portfolio</Card.Title>
+<Card.Text>
+Web Development Portfolio
+</Card.Text>
+<Button variant="primary" className="neo-button" id="pp"><i className="fa fa-github fa-2x"> </i></Button>
+</Card.Body>
 </Card>
 </Col>
+
+</Row>
+
+        </div>
+
+</div>     
+     
+         
+                
+             
+     
+
     
 
-  </Row>
-</Container>
+             
+            
                 
             )
             // otherwise image will be right and text left

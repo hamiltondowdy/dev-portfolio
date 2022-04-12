@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+
 import {  Button, Row } from "react-bootstrap";
 import "./style.css";
-import Socials from "../Socials";
 import Navigation from "../Navigation";
 
 class Headbutt extends Component {
@@ -25,9 +25,9 @@ class Headbutt extends Component {
     return (
       <div>
         <div className="btnContainer">
-          <div className="row justify-content-center">
-          <div className="col-1">
-            <Row>
+          <div className="row justify-content-space-between" id="map">
+         
+            <Row id="map">
             <Button
             onClick={() => this.toggleLoader()}
             variant={"shadow-none"}
@@ -35,7 +35,7 @@ class Headbutt extends Component {
             class="grow"
             id="butt"
           >
-            {this.state.loading ? "-" : "+"}
+            {this.state.loading ? "•" : "•••"}
           </Button>
             </Row>
        
@@ -46,7 +46,7 @@ class Headbutt extends Component {
 
           
         </div>
-      </div>
+  
       </div>
       </div>
     );

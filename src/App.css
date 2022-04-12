@@ -1,5 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Calibri:400,300,700);
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+};
+
 .App {
   text-align: center;
   width: 100%;
@@ -88,8 +94,8 @@ body-part {
 
 .row {
   width: 100%;
-  margin: 20 auto;
-  padding: 20px;
+  margin: 10 auto;
+  padding: 10px;
 }
 
 .col-md {
@@ -208,3 +214,21 @@ body-part {
     }
 
  }
+
+ @keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

@@ -2,18 +2,23 @@ nav-item {
     position: relative;
 }
 
-Navbar {
-   
+#offcanvasNavbar {
+ 
     background-color: aliceblue;
+
 }
 
-offcanvas-body {
+offcanvas {
     position: relative;
     flex-wrap: wrap;
     justify-content: center;
     background-color: rgb(48, 48, 48);
+    margin: 20px;
 }
 
+#toggle {
+    margin: 50px;
+}
 
 navbar-nav {
     flex-wrap: wrap;
@@ -29,4 +34,13 @@ neo-button {
 #but {
     padding: 10px;
     margin: 10px;
+}
+
+h1 {
+    letter-spacing: 5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 30px;
+    margin: 20px;
+    color: #11191e;
 }

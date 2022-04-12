@@ -4,12 +4,19 @@ import gif from "../../img/5.gif";
 import Pfp from "../../img/pfp.jpg";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Skills from "../../components/Skills";
-import Resume from "../Resume"
+import Resume from "../Resume";
+import { Container } from "react-bootstrap";
+import Navbar from "../Navbar";
 
 function About() {
 
     return (
-            <div className="row">
+       
+        <Container id="abtctr">
+            <Navbar />
+            <div class="container" id="abt">
+
+<div className="row">
                 <div className="hero-wrap">
                     <div className="boxy">
                     <img className="gif" src={gif}  alt="gif" /><img className="pfp" src={Pfp} alt="Pfp" />
@@ -31,6 +38,11 @@ function About() {
                  
                 
             </div>
+        </div>
+
+        </Container>
+      
+
   
    
     )
