@@ -11,7 +11,7 @@ return (
 
   <Navbar  sticky="top" expand={false}>
   <Container fluid>
-    <Navbar.Brand href="/#"><h1>Hamilton Dowdy</h1></Navbar.Brand>
+    <Navbar.Brand href="/"><h1>Hamilton Dowdy</h1></Navbar.Brand>
     
     <Navbar.Toggle aria-controls="offcanvasNavbar" id="toggle" />
     <Navbar.Offcanvas
