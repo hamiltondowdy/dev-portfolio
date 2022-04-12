@@ -10,7 +10,7 @@ function Contact() {
   <Row>
     <Col>
     <div className="col-md">
-    <h3>Reach Out</h3>
+    <h3>CONTACT</h3>
           
             <Socials />
             </div>

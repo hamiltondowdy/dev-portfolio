@@ -1,17 +1,40 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+
+
+
+import ReactDOM from "react-dom";
+import "./index.css";
+// import * as serviceWorker from "./serviceWorker";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {
+  About,
+ // Buttons,
+  Contact,
+ // Headbutt,
+  Header,
+  Navbar,
+  Project,
+  Navigation,
+//  Resume,
+//  Skills,
+//  Socials,
+//  Welcome
+} from "./components";
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+  <Router>
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+    <Routes>
+      <Route path="/" element={<Header />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/projects" element={<Project />}>
+      </Route>
+    </Routes>
+
+  
+  </Router>,
+
+  document.getElementById("root")
+);

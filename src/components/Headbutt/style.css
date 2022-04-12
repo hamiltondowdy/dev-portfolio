@@ -1,6 +1,24 @@
 #butt {
-    font-size: 50px;
-    flex-wrap: wrap;
-    justify-content: baseline;
+    font-size: 100px;
+
+
     box-shadow: none
 }
+
+
+
+
+
+
+header .btnContainer {
+    position: absolute;
+
+
+top: 30%;
+left: 0;
+right: 0;
+
+
+}
+
+

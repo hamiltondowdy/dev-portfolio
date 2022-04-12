@@ -16,7 +16,7 @@ function Project() {
             <Container className="container-md justify-content-center" id="projs">
              <Row className="container-md justify-content-center">
      
-  <h3 className="justify-content-center">Projects</h3>
+  <h3 className="justify-content-center">PROJECTS</h3>
     
         <Col className="col-md">
         <Card style={{ width: '18rem' , backgroundColor: '#f1f2f5'}} id="project">
@@ -33,7 +33,7 @@ function Project() {
 
 
 <Col>
-<Card style={{ width: '18rem' , backgroundColor: '#f1f2f5'}} id="project">
+<Card style={{ width: '18rem' , backgroundColor: '#f1f2f5' }} id="project">
   <Card.Img variant="top"  width="70%" src={PortImg} />
   <Card.Body>
     <Card.Title>Personal Portfolio</Card.Title>

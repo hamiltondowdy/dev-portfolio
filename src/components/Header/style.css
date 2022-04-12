@@ -2,8 +2,10 @@ header {
     background: linear-gradient(145deg, #ffffffd4, #ffffff);
     opacity: .8;
     width: 100%;
+    height: 1200px;
     flex-wrap: wrap;
     justify-content: center;
+    
     background-image: url("../../img/cloud.jpg");
 }
 
@@ -21,7 +23,8 @@ header {
 
 html, body >div {
     height: 100%;
-  
+    flex-wrap: wrap;
+    align-items: center;
     background-color: #fffefe;
     margin: 0px;
 
@@ -66,7 +69,7 @@ html, body >div {
     letter-spacing: 2px;
     color: #f0f1f1;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 50px;
     -webkit-transition: all 0.3s linear;
      transition: all 0.3s linear;
  }

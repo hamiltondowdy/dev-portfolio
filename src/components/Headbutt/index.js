@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import {  Button, Row } from "react-bootstrap";
 import "./style.css";
 import Socials from "../Socials";
+import Navigation from "../Navigation";
 
 class Headbutt extends Component {
   constructor(props) {
@@ -24,11 +25,14 @@ class Headbutt extends Component {
     return (
       <div>
         <div className="btnContainer">
+          <div className="row justify-content-center">
+          <div className="col-1">
             <Row>
             <Button
             onClick={() => this.toggleLoader()}
             variant={"shadow-none"}
             size="lg"
+            class="grow"
             id="butt"
           >
             {this.state.loading ? "-" : "+"}
@@ -37,11 +41,13 @@ class Headbutt extends Component {
        
 
           {this.state.loading ? (
-            <Socials />
+            <Navigation />
           ) : null}
 
           
         </div>
+      </div>
+      </div>
       </div>
     );
   }
