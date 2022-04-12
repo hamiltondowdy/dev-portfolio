@@ -5,7 +5,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 // import * as serviceWorker from "./serviceWorker";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {HashRouter, Routes, Route } from 'react-router-dom';
 import {
   About,
  // Buttons,
@@ -23,9 +23,9 @@ import {
 
 
 ReactDOM.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
 
-<Router>
+
+<HashRouter>
 
     <Routes>
       <Route path="/" element={<Header />} />
@@ -36,9 +36,8 @@ ReactDOM.render(
     </Routes>
 
   
-  </Router>
-    
-  </BrowserRouter>
+  </HashRouter>
+
   ,
 
   document.getElementById("root")
