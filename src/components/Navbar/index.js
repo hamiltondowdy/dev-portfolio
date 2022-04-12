@@ -5,13 +5,18 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Buttons from "../Buttons";
 import "./style.css";
 import Navigation from "../Navigation";
+import { NavLink } from "react-router-dom";
 
 function NavBar() {
 return (
 
   <Navbar  sticky="top" expand={false}>
   <Container fluid>
-    <Navbar.Brand href="/"><h1>Hamilton Dowdy</h1></Navbar.Brand>
+
+    <NavLink exact to="/" id="link">
+    <Navbar.Brand id="brand"><h1>Hamilton Dowdy</h1></Navbar.Brand>
+    </NavLink>
+    
     
     <Navbar.Toggle aria-controls="offcanvasNavbar" id="toggle" />
     <Navbar.Offcanvas

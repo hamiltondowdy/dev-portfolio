@@ -44,4 +44,14 @@ h1 {
     padding: 30px;
     margin: 20px;
     color: #11191e;
+    text-decoration: none;
+    list-style: none;
+}
+
+#brand {
+    text-decoration: none;
+}
+
+#link {
+    text-decoration: none;
 }
