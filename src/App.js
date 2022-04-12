@@ -7,6 +7,7 @@ import { Navigation } from './components';
 import Navbar from "./components/Navbar";
 import Fade from './components/Fade.js';
 import FadeProps from 'fade-props';
+import { BrowserRouter } from 'react-router-dom';
 
 
 
@@ -16,6 +17,7 @@ function App() {
 
   return (
     <div>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
       <FadeProps>
       <Navbar />
         <Navigation />
@@ -24,7 +26,7 @@ function App() {
      
         
 
-      
+      </BrowserRouter>
     </div>
      
 
