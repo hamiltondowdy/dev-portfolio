@@ -18,6 +18,7 @@ offcanvas {
 
 #toggle {
     margin: 50px;
+    justify-content: center;
 }
 
 navbar-nav {
