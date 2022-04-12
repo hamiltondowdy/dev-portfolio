@@ -25,7 +25,7 @@ import {
 ReactDOM.render(
 
 
-<HashRouter>
+<HashRouter basename={process.env.PUBLIC_URL}>
 
     <Routes>
       <Route path="/" element={<Header />} />
