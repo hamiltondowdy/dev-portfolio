@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Calibri:400,300,700);
+
+body {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    background-color: #e9eaeb
+}
+
+.social-buttons {
+    margin-top: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.social-buttons button {
+    margin: 10px
+}
+
+.neo-button {
+    position: center;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 50px;
+    height: 50px;
+    letter-spacing: 2px;
+    color: #5a84a2;
+    font-size: 11px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    background: linear-gradient(145deg, #ecedef, #f3f6f6);
+    box-shadow: 3px 6px 10px #d3cece, -3px -6px 10px #ffffff
+}
+
+
+.neo-button:hover {
+    
+    background: linear-gradient(145deg, #f5f7f7, #e7e9eb);
+    box-shadow: 3px 6px 13px #f3f1f1, -6px -6px 10px #f8f5f5
+}
+
+.neo-button .fa {
+    flex-wrap: wrap;
+    justify-content: center;
+    color: rgb(175, 175, 176)
+}
+
+h3 {
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 11px;
+
+}
