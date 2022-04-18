@@ -1,5 +1,6 @@
 import React from "react";
-import Resume from "./pdf/Resume.pdf";
+
+
 
 import ReactDOM from "react-dom";
 import "./index.css";
@@ -30,7 +31,7 @@ ReactDOM.render(
       <Route path="/" element={<Header />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
-      <Route path="/projects" element={<Project />} >
+      <Route path="/projects" element={<Project />}>
       </Route>
     </Routes>
 
