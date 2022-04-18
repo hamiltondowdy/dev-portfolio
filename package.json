@@ -2,7 +2,7 @@
   "homepage": "https://hamiltondowdy.github.io/dev-portfolio/",
   "name": "dev-portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.1.1",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
@@ -36,7 +36,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  
   "browserslist": {
     "production": [
       ">0.2%",
