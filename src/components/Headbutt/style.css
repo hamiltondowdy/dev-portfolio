@@ -1,11 +1,19 @@
-#butt {
+ #butt {
     font-size:80px;
     opacity: .75;
         transition: all .7s ease-in-out; 
         
     color:rgb(44, 44, 44);
     box-shadow: none
-}
+} 
+
+
+    .bounce {
+        animation: bounce 2s infinite;
+      }
+
+
+
 
 #butt:hover{
     transform: scale(1.3);
