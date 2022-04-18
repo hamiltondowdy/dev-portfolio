@@ -14,7 +14,8 @@ return (
   <Container fluid>
 
     <NavLink exact to="/" id="link">
-    <Navbar.Brand id="brand"><h1>Hamilton Dowdy</h1></Navbar.Brand>
+    <Navbar.Brand id="brand"><span class="title-word title-word-1">Hamilton</span>
+    <span class="title-word title-word-2" id="dowdy">Dowdy</span></Navbar.Brand>
     </NavLink>
     
     

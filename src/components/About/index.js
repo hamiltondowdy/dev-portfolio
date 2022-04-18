@@ -4,7 +4,7 @@ import gif from "../../img/5.gif";
 import Pfp from "../../img/pfp.jpg";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Skills from "../../components/Skills";
-import Resume from "../Resume";
+
 import { Container } from "react-bootstrap";
 import Navbar from "../Navbar";
 

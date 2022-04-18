@@ -35,7 +35,7 @@ class Headbutt extends Component {
             class="grow"
             id="butt"
           >
-            {this.state.loading ? "•" : "•••"}
+            <img src="https://img.icons8.com/ios-filled/50/000000/home.png"/>
           </Button>
             </Row>
        

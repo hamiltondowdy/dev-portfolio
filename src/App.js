@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
 import 'font-awesome/css/font-awesome.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Spinner } from 'react-bootstrap';
 import './App.css';
-import { Navigation } from './components';
+import { Contact, Navigation } from './components';
 import Navbar from "./components/Navbar";
-import Fade from './components/Fade.js';
-//import FadeProps from 'fade-props';
+import { About, Project, Contact } from "./components";
 
 import HashRouter from "react-router-dom";
 
@@ -21,7 +19,9 @@ function App() {
 
       <Navbar />
         <Navigation />
-
+        <About />
+        <Project />
+        <Contact />
     
      
         

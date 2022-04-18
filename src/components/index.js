@@ -5,7 +5,6 @@ export { default as Headbutt } from "./Headbutt";
 export { default as Header } from "./Header";
 export { default as Navbar } from "./Navbar";
 export { default as Project } from "./Project";
-export { default as Resume } from "./Resume";
 export { default as Skills } from "./Skills";
 export { default as Socials } from "./Socials";
 

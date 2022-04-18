@@ -44,12 +44,12 @@ function Header() {
 
   
       <NavBar />
-     
+      
 
       <a-scene>
       <a-sky src="https://i.imgur.com/tqm3Zqy.jpg" rotation="0 -58.7 30"></a-sky>
     </a-scene>
-
+    
      
       <Headbutt />
 
