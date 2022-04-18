@@ -1,9 +1,9 @@
 
-import pdf from "pdf";
+
 import { Button, Card, Row, Col } from "react-bootstrap";
 import React from "react";
 import { NavLink } from "react-router-dom";
-import {resume} from "../../pdf/Resume.pdf";
+
 
 import "./style.css";
 

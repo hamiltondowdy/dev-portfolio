@@ -2,7 +2,7 @@ import React from "react";
 
 
 
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import "./index.css";
 // import * as serviceWorker from "./serviceWorker";
 import {HashRouter, Routes, Route } from 'react-router-dom';
