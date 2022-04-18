@@ -20,7 +20,7 @@ function Project() {
         
          
 
-    <div class="d-flex align-items-center justify-content-center" id="contain">
+    <div id="contain">
               
               <Row className="justify-content-center">
 

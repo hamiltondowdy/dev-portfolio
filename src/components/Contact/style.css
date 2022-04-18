@@ -1,18 +1,33 @@
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900,400italic,700italic,900italic); 
 
-
-.viewFive {
+.display-6 {
+  font: 20px/1.25 'Raleway', sans-serif;
+  font-weight: 600;
+  color: rgb(55, 46, 46);
+  line-height: 20px;
+}
+#abt {
    
     width: 100%;
+    padding: 20px;
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: -10vh;
+
+
 }
 
 h1 {
-  font: 16px/1.25 'Raleway', sans-serif;
+  font: 20px/1.25 'Raleway', sans-serif;
   margin-top: 10px;
+  font-weight: 700;
+}
+
+h3 {
+  font: 90px/1.25 'Raleway', sans-serif;
+
+  font-weight: 900;
 }
 
 #contactTitle {

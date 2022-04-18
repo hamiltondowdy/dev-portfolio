@@ -3,7 +3,7 @@
 grid-container {
    
     background-color: #d8d5d5;
-    
+    padding: 20px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -51,6 +51,7 @@ grid-container {
 
 .row {
     flex-wrap: wrap;
+    padding: 20px;
     justify-content: center;
 }
 
@@ -149,6 +150,9 @@ ul {
     align-items: center;
 }
 
+h3 {
+  padding: 50px;
+}
 
 .container card {
     background-color: #c7cece;
@@ -165,6 +169,7 @@ p {
 row  {
     flex-wrap: wrap;
     justify-content: center;
+    padding: 20px;
 }
 
 
