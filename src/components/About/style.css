@@ -57,7 +57,7 @@ width: 100%;
     justify-content: space-between;
     padding: 5px;
     margin: 20px;
-    width: 100px;
+    width: 300px;
     background-color: #c7c4c4;
 }
 
@@ -96,6 +96,19 @@ width: 100%;
     align-items: center;
 }
 
+#skilly {
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+
+#sklcol {
+    width: auto;
+}
+#sklrow {
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .pad a {
     flex-wrap: wrap;
     justify-content: center;

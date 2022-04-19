@@ -51,7 +51,7 @@ grid-container {
 
 .row {
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 5px;
     justify-content: center;
 }
 

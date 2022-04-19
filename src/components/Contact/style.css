@@ -4,13 +4,13 @@
 .display-6 {
   font: 20px/1.25 'Raleway', sans-serif;
   font-weight: 600;
-  color: rgb(55, 46, 46);
+  opacity: .8;
   line-height: 20px;
 }
 #abt {
    
     width: 100%;
-    padding: 20px;
+    padding: 5px;
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: -10vh;
