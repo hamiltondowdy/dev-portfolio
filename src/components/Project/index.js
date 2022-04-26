@@ -35,7 +35,7 @@ function Project() {
 <Card.Text>
 A social media app
 </Card.Text>
-<Button variant="primary" className="neo-button" id="pp"><i className="fa fa-github fa-2x"> </i></Button>
+<Button variant="primary" href="https://github.com/hamiltondowdy/penguin-post" className="neo-button" id="pp"><i className="fa fa-github fa-2x"> </i></Button>
 </Card.Body>
 </Card>
 </Col>       
@@ -49,7 +49,7 @@ A social media app
 <Card.Text>
 Web Development Portfolio
 </Card.Text>
-<Button variant="primary" className="neo-button" id="pp"><i className="fa fa-github fa-2x"> </i></Button>
+<Button variant="primary" className="neo-button" href="https://github.com/hamiltondowdy/dev-portfolio" id="pp"><i className="fa fa-github fa-2x"> </i></Button>
 </Card.Body>
 </Card>
 </Col>
