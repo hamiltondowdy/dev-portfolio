@@ -1,3 +1,18 @@
-#skilly {
-    
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900,400italic,700italic,900italic);
+
+.tab-content {
+    font: 16px/1.25 'Raleway', sans-serif;
+    line-height: 20px;
+    font-weight: 700;
 }
+
+.tab-pane {
+    font-size: 15px;
+}
+
+#sklrow {
+    padding: 20px;
+}
+
+
+

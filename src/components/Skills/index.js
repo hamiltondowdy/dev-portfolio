@@ -1,42 +1,110 @@
 
-import React, { useState } from "react";
+import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { ButtonGroup, ToggleButton } from 'react-bootstrap';
+import { Tab, Nav, Row, Col } from 'react-bootstrap';
 import "./style.css";
 
 function Skills() {
-  const [checked, setChecked] = useState(false);
-  const [radioValue, setRadioValue] = useState('2');
 
-  const radios = [
-    { name: 'Front End', value: '1' },
-    { name: 'All', value: '2' },
-    { name: 'Back End', value: '3' },
-  ];
+
+  return (
+    <Tab.Container id="left-tabs-example" defaultActiveKey="all">
+  <Row>
+
+      <Nav variant="pills" className="flex">
+        <Nav.Item>
+          <Nav.Link eventKey="frontend">Front-end</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey="all">All</Nav.Link>
+        </Nav.Item>
+        <Nav.Item >
+          <Nav.Link eventKey="backend">Back-end</Nav.Link>
+        </Nav.Item>
+      </Nav>
+
+      <Tab.Content>
+        <Tab.Pane eventKey="frontend">
+          <Row>
+          <Col>
+            HTML
+            <br />
+        CSS
+        <br />
+        Javascript
+            </Col>
+            <Col>
+            Bootstrap
+            <br />
+        jQuery
+        <br />
+        React
+            </Col>
+
   
-    return (
-      <>
-       
-     
-      <ButtonGroup className="mb-4" id="skilly">
-        {radios.map((radio, idx) => (
-          <ToggleButton
-            key={idx}
-            id={`radio-${idx}`}
-            type="radio"
-            variant="secondary"
-            name="radio"
-            value={radio.value}
-            checked={radioValue === radio.value}
-            onChange={(e) => setRadioValue(e.currentTarget.value)}
-          >
-            {radio.name}
-          </ToggleButton>
-        ))}
-      </ButtonGroup>
-      
-    </>
+          </Row>
+            
+        </Tab.Pane>
+        <Tab.Pane eventKey="all">
+        <Row>
+          <Col>
+            HTML
+            <br />
+        CSS
+        <br />
+        Javascript
+            </Col>
+            <Col>
+            Bootstrap
+            <br />
+        jQuery
+        <br />
+        React
+            </Col>
+        <Col>
+        GraphQL
+        <br />
+        MongoDB
+        <br />
+        SQL
+        </Col>
+        <Col>
+        Express.js
+        <br />
+        Node.js
+        <br />
+        Heroku
+        </Col>
+  
+          </Row>
+
+        </Tab.Pane>
+        <Tab.Pane eventKey="backend">
+          <Row>
+
+          <Col>
+        GraphQL
+        <br />
+        MongoDB
+        <br />
+        SQL
+        </Col>
+        <Col>
+        Express.js
+        <br />
+        Node.js
+        <br />
+        Heroku
+        </Col>
+  
+          </Row>
+        </Tab.Pane>
+      </Tab.Content>
+
+  </Row>
+</Tab.Container>
   );
 }
+
   
   export default Skills;
