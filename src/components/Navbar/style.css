@@ -58,7 +58,7 @@ neo-button {
     text-transform: uppercase;
     font-size: 3em;
     padding: 5px;
-
+    background: transparent;
   }
 
   
