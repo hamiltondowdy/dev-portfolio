@@ -33,10 +33,10 @@
 header .btnContainer {
     position: absolute;
 
-
+margin: auto;
 top: 35%;
-width: 100%;
 
+width: 100%
 
 }
 

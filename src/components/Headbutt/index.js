@@ -25,9 +25,9 @@ class Headbutt extends Component {
     return (
       <div>
         <div className="btnContainer">
-          <div className="row justify-content-space-between" id="map">
+          
          
-            <Row id="map">
+            <Row>
             <Button
             onClick={() => this.toggleLoader()}
             variant={"shadow-none"}
@@ -48,7 +48,7 @@ class Headbutt extends Component {
         </div>
   
       </div>
-      </div>
+    
     );
   }
 }

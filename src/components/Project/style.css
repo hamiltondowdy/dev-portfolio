@@ -51,7 +51,7 @@ grid-container {
 
 .row {
     flex-wrap: wrap;
-    padding: 5px;
+    padding: 0px;
     justify-content: center;
 }
 
@@ -87,11 +87,10 @@ proj img {
 
 .row > div {
     
- 
+ margin: auto;
     
   justify-content: center;
-    padding: 5px;
-    margin: 3px;
+    
 
   }
 

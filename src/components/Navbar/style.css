@@ -31,24 +31,34 @@ navbar-nav {
     position: relative;
 }
 
+.container-fluid  .title-word{
+    text-decoration: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 neo-button {
     margin: 10px;
     padding: 10px;
 }
 
-#but {
-    padding: 10px;
-    margin: 10px;
-}
 
+#lastname {
+    opacity: .7;
+}
 
 
 #brand {
     text-decoration: none;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #link {
     text-decoration: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
 }
 
 .title-word {
@@ -70,4 +80,31 @@ neo-button {
 #dowdy {
     opacity: .7;
  
+  }
+
+  navbar .container-fluid {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+  @media only screen and ( max-width: 620px)  {
+      #link {
+        text-align: center;
+      }
+      a {
+          display: block !important;
+      }
+      .title-word-1 {
+          text-align: center;
+          font-size: 3rem;
+      }
+      .title-word-2 {
+        text-align: center;
+        font-size: 3rem;
+    }
+    .navbar>.container-fluid  {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
   }
