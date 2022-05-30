@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/dev-portfolio/static/css/main.97eed2e6.css",
-    "main.js": "/dev-portfolio/static/js/main.819bea81.js",
+    "main.css": "/dev-portfolio/static/css/main.11f83f39.css",
+    "main.js": "/dev-portfolio/static/js/main.3c728a8e.js",
     "static/media/5.gif": "/dev-portfolio/static/media/5.75b06812401c7ec924e1.gif",
+    "static/media/screencd2.png": "/dev-portfolio/static/media/screencd2.5ae6a6708348db649cb2.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/dev-portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/cloud.jpg": "/dev-portfolio/static/media/cloud.4c05719d2635e1aa9dda.jpg",
     "static/media/portimg.png": "/dev-portfolio/static/media/portimg.39eb6a70ab48711b43fe.png",
@@ -14,11 +15,11 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/dev-portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/pfp.jpg": "/dev-portfolio/static/media/pfp.1e0a5d74d32a4f23f481.jpg",
     "index.html": "/dev-portfolio/index.html",
-    "main.97eed2e6.css.map": "/dev-portfolio/static/css/main.97eed2e6.css.map",
-    "main.819bea81.js.map": "/dev-portfolio/static/js/main.819bea81.js.map"
+    "main.11f83f39.css.map": "/dev-portfolio/static/css/main.11f83f39.css.map",
+    "main.3c728a8e.js.map": "/dev-portfolio/static/js/main.3c728a8e.js.map"
   },
   "entrypoints": [
-    "static/css/main.97eed2e6.css",
-    "static/js/main.819bea81.js"
+    "static/css/main.11f83f39.css",
+    "static/js/main.3c728a8e.js"
   ]
 }
