@@ -79,7 +79,7 @@ offcanvas {
 
   
   .title-word-1 {
-    --color-1: #515050;
+    --color-1: #e8e3e3;
 
   }
   
@@ -97,6 +97,7 @@ offcanvas {
   @media only screen and ( max-width: 650px)  {
       #link {
         text-align: center;
+        font-size: 100px;
       }
       a {
           display: block !important;

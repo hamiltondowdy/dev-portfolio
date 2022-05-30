@@ -201,7 +201,7 @@ margin-top: 10%;
 
   @media (max-width:600px) {
       .display-7 {
-          font-size: 50px;
+          font-size: 100px;
       }
 
       #abtctr {
