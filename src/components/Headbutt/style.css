@@ -33,7 +33,6 @@
 header .btnContainer {
     position: absolute;
 
-margin: 5%;
 top: 35%;
 
 width: 100%
@@ -42,4 +41,12 @@ width: 100%
 
 #project {
     width: 100px;
+}
+
+
+@media (max-width:400px) {
+header .btnContainer {
+    position: relative;
+}
+    
 }
