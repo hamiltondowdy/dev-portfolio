@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dev-portfolio/static/css/main.8805f0bc.css",
-    "main.js": "/dev-portfolio/static/js/main.5e941282.js",
+    "main.css": "/dev-portfolio/static/css/main.97eed2e6.css",
+    "main.js": "/dev-portfolio/static/js/main.819bea81.js",
     "static/media/5.gif": "/dev-portfolio/static/media/5.75b06812401c7ec924e1.gif",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/dev-portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/cloud.jpg": "/dev-portfolio/static/media/cloud.4c05719d2635e1aa9dda.jpg",
@@ -10,15 +10,15 @@
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/dev-portfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/proj2.png": "/dev-portfolio/static/media/proj2.7b133f450d40997dfe2a.png",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/dev-portfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/resume-001.pdf": "/dev-portfolio/static/media/resume-001.8d69036d52eca3e1c5f8.pdf",
+    "static/media/resume-001.pdf": "/dev-portfolio/static/media/resume-001.1801b9bc27ad55c78e1e.pdf",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/dev-portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/pfp.jpg": "/dev-portfolio/static/media/pfp.1e0a5d74d32a4f23f481.jpg",
     "index.html": "/dev-portfolio/index.html",
-    "main.8805f0bc.css.map": "/dev-portfolio/static/css/main.8805f0bc.css.map",
-    "main.5e941282.js.map": "/dev-portfolio/static/js/main.5e941282.js.map"
+    "main.97eed2e6.css.map": "/dev-portfolio/static/css/main.97eed2e6.css.map",
+    "main.819bea81.js.map": "/dev-portfolio/static/js/main.819bea81.js.map"
   },
   "entrypoints": [
-    "static/css/main.8805f0bc.css",
-    "static/js/main.5e941282.js"
+    "static/css/main.97eed2e6.css",
+    "static/js/main.819bea81.js"
   ]
 }
