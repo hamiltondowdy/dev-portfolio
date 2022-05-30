@@ -1,6 +1,6 @@
 *, body, html {
   background-color: #fff;
-  overflow-y: scroll;
+  overflow: auto;
 }
 
 #root {
