@@ -6,16 +6,33 @@ h3 {
 }
 
 #project {
-    width: 15rem;
-    height: 20rem;
+    width: fit-content;
+    margin: 3%;
+    padding: 35;
+    height: 100%;
   
 }
 
-
-#rid {
-    margin: 5%;
+.col {
+    padding: 2%;
 }
 
+#socb .neo-button {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+#rid {
+    margin: 3%;
+    padding: 2%;
+}
+
+#pi {
+    width: 300px;
+    height: 190px;
+}
 
 #project {
     flex-wrap: wrap;

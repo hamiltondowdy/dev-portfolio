@@ -3,7 +3,7 @@
 body {
     text-align: center;
     font-family: 'Lato', sans-serif;
-    background-color: #e9eaeb
+
 }
 
 .social-buttons {
@@ -18,9 +18,9 @@ body {
 }
 
 .neo-button {
-    position: center;
+    padding-top: 0;
     text-decoration: none;
-    text-align: center;
+    margin: auto;
     text-transform: uppercase;
     font-weight: 500;
     width: 50px;
@@ -40,18 +40,17 @@ body {
 .neo-button:hover {
     color: #3a4d5c;
     background: linear-gradient(145deg, #dee4e4, #fefeff);
-    box-shadow: 3px 6px 13px #ffffff, -6px -6px 10px #f5f2f2
+    box-shadow: 3px 6px 13px #ffffff, -6px -6px 10px #f6f4f4
 }
 
 .neo-button .fa {
-    flex-wrap: wrap;
-    justify-content: center;
-    color: #5a84a2;
+    align-items: center;
+    margin: auto;
+    color: #68737c;
 }
 
 .neo-button .fa:hover {
-    flex-wrap: wrap;
-    justify-content: center;
+    margin: auto;
     color: #3a4d5c;
 
 }

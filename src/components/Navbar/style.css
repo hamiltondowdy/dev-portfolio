@@ -12,6 +12,10 @@ nav-item {
 
 }
 
+#nov {
+    margin-left: 3%;
+    margin-right: 3%;
+}
 offcanvas {
  
     flex-wrap: wrap;

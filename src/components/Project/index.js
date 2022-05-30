@@ -8,6 +8,7 @@ import "./style.css"
 import {  Col, Row , Container, Card, Button } from 'react-bootstrap';
 import PortImg from "../../img/portimg.png";
 import Socials from "../Socials";
+import ScreenCD from "../../img/screencd2.png";
 
 function Project() {
     return projects.map(project => {
@@ -30,13 +31,15 @@ function Project() {
 
 <Col>
 <Card id="project">
-<Card.Img variant="top" src={ProjImg} />
+<Card.Img variant="top" id="pi" src={ProjImg} />
 <Card.Body>
 <Card.Title>Penguin Post</Card.Title>
 <Card.Text>
 A CRUD social media app
 </Card.Text>
-<Button href="https://github.com/hamiltondowdy/penguin-post" className="neo-button"><i className="fa fa-github fa-2x"> </i></Button>
+<div id="socb">
+<Button href="https://github.com/hamiltondowdy/penguin-post" className="neo-button" id="socb"><i className="fa fa-github fa-2x"> </i></Button>
+</div>
 </Card.Body>
 </Card>
 </Col>       
@@ -44,13 +47,32 @@ A CRUD social media app
 
 <Col>
 <Card id="project">
-<Card.Img variant="top" src={PortImg} />
+<Card.Img variant="top" id="pi"  src={PortImg} />
 <Card.Body>
 <Card.Title>Personal Portfolio</Card.Title>
 <Card.Text>
 Web Development Portfolio
 </Card.Text>
-<Button className="neo-button" href="https://github.com/hamiltondowdy/dev-portfolio"><i className="fa fa-github fa-2x"> </i></Button>
+<div id="socb">
+<Button className="neo-button" id="socb" href="https://github.com/hamiltondowdy/dev-portfolio"><i className="fa fa-github fa-2x"> </i></Button>
+</div>
+
+</Card.Body>
+</Card>
+</Col>
+
+<Col>
+<Card id="project">
+<Card.Img variant="top"  id="pi" src={ScreenCD} />
+<Card.Body>
+<Card.Title>Fine Art Gallery</Card.Title>
+<Card.Text>
+An Elegant Artist Portfolio
+</Card.Text>
+<div id="socb">
+<Button className="neo-button" id="socb" href="https://github.com/hamiltondowdy/dev-portfolio"><i className="fa fa-github fa-2x"> </i></Button>
+</div>
+
 </Card.Body>
 </Card>
 </Col>

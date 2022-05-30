@@ -10,7 +10,7 @@ import { NavLink } from "react-router-dom";
 function NavBar() {
 return (
 
-  <Navbar  sticky="top" expand={false}>
+  <Navbar  sticky="top" id="nov" expand={false}>
   <Container fluid>
 
     <NavLink exact to="/" id="link">

@@ -48,7 +48,7 @@ width: 100%;
 .container {
     flex-wrap: wrap;
     justify-content: center;
-    background-color:rgb(250, 250, 250);
+    background-color:rgb(255, 255, 255);
     top: 15%;
     width: 100%;
 }
