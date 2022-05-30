@@ -106,6 +106,7 @@ width: 100%;
 
 #sklcol {
     width: auto;
+    position: relative;
 }
 #sklrow {
     flex-wrap: wrap;
@@ -168,7 +169,7 @@ width: 100%;
 .pfp {
     flex-wrap: wrap;
     justify-content: center;
-    position: absolute;
+
     position:relative;
     width: 240px;
     margin-bottom: 2px;
