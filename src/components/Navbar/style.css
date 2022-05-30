@@ -8,12 +8,12 @@ nav-item {
 
 #offcanvasNavbar {
  
-    background-color: aliceblue;
+    background-color: rgb(243, 240, 240);
 
 }
 
 offcanvas {
-    position: relative;
+ 
     flex-wrap: wrap;
     justify-content: center;
     background-color: rgb(48, 48, 48);
@@ -21,15 +21,20 @@ offcanvas {
 }
 
 #toggle {
-    margin: 50px;
+    margin: 6.5%;
     justify-content: center;
 }
 
-navbar-nav {
+.navbar {
     flex-wrap: wrap;
     justify-content: center;
-    position: relative;
+
+
+    margin-bottom: 2%;
+
 }
+
+
 
 .container-fluid  .title-word{
     text-decoration: none;
@@ -37,10 +42,6 @@ navbar-nav {
     justify-content: center;
 }
 
-neo-button {
-    margin: 10px;
-    padding: 10px;
-}
 
 
 #lastname {
@@ -51,6 +52,7 @@ neo-button {
 #brand {
     text-decoration: none;
     flex-wrap: wrap;
+    margin: auto;
     justify-content: center;
 }
 
@@ -82,13 +84,13 @@ neo-button {
  
   }
 
-  navbar .container-fluid {
+.nav {
     flex-wrap: wrap;
     justify-content: center;
 }
 
 
-  @media only screen and ( max-width: 620px)  {
+  @media only screen and ( max-width: 650px)  {
       #link {
         text-align: center;
       }
@@ -103,8 +105,9 @@ neo-button {
         text-align: center;
         font-size: 3rem;
     }
-    .navbar>.container-fluid  {
-        flex-wrap: wrap;
-        justify-content: center;
+    .container-fluid {
+        flex-wrap: wrap !important;
+        justify-content: center !important;
     }
+  
   }

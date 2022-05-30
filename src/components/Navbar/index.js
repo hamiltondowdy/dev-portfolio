@@ -25,7 +25,7 @@ return (
       placement="end"
     >
       <Offcanvas.Header closeButton>
-        <Offcanvas.Title id="bb">ooo look, buttons.</Offcanvas.Title>
+        <Offcanvas.Title id="bb"></Offcanvas.Title>
       </Offcanvas.Header>
       <Offcanvas.Body id="aa">
         <Nav>

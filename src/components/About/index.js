@@ -11,9 +11,11 @@ import Navbar from "../Navbar";
 function About() {
 
     return (
+       <div id="aaa">
+            <Navbar />
        
         <Container id="abtctr">
-            <Navbar />
+            
             <div class="container" id="abt">
 
 <div className="row">
@@ -32,7 +34,12 @@ function About() {
             
                     <h3 className="display-7">ABOUT</h3>
                     <div className="aboot">
-                        <span className="display-6">Web developer with 2+ years in the product integration and testing space. Experience in a fast-paced, asynchronous working environment, while expanding and developing technical skills in night classes at an accredited bootcamp. References available upon request. </span>
+                        <span className="display-6">Web developer with 2+ years in the product integration and testing space. Experience in a
+fast-paced, asynchronous working environment, coupled with a drive and curiosity to
+explore web development to it's utilitarian potential. Continually pursuing development of
+creative projects and freelance applications based around solid fundamentals gained from
+professional education at the University of Texas at Austin.
+</span>
                        
                         
                     </div>
@@ -47,7 +54,7 @@ function About() {
         </Container>
       
 
-  
+        </div>
    
     )
 }

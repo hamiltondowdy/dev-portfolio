@@ -3,7 +3,8 @@
 .tab-content {
     font: 16px/1.25 'Raleway', sans-serif;
     line-height: 20px;
-    font-weight: 700;
+    font-weight: 400;
+    padding: 2%;
 }
 
 .tab-pane {
@@ -11,7 +12,7 @@
 }
 
 #sklrow {
-    padding: 20px;
+    padding: 2%;
 }
 
 

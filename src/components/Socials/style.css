@@ -24,28 +24,36 @@ body {
     text-transform: uppercase;
     font-weight: 500;
     width: 50px;
+    border-radius: 50%;
     height: 50px;
     letter-spacing: 2px;
     color: #5a84a2;
     font-size: 11px;
     flex-wrap: wrap;
     justify-content: center;
-    
+    border: none;
     background: linear-gradient(145deg, #ecedef, #f3f6f6);
-    box-shadow: 3px 6px 10px #d3cece, -3px -6px 10px #ffffff
+    box-shadow: 3px 6px 10px hsl(0, 19%, 89%), -3px -6px 10px #fcf8f8
 }
 
 
 .neo-button:hover {
-    
-    background: linear-gradient(145deg, #f5f7f7, #e7e9eb);
-    box-shadow: 3px 6px 13px #f3f1f1, -6px -6px 10px #f8f5f5
+    color: #3a4d5c;
+    background: linear-gradient(145deg, #dee4e4, #fefeff);
+    box-shadow: 3px 6px 13px #ffffff, -6px -6px 10px #f5f2f2
 }
 
 .neo-button .fa {
     flex-wrap: wrap;
     justify-content: center;
-    color: rgb(175, 175, 176)
+    color: #5a84a2;
+}
+
+.neo-button .fa:hover {
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #3a4d5c;
+
 }
 
 h3 {

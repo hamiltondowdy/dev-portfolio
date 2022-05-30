@@ -7,8 +7,12 @@ import Navbar from "../Navbar";
 
 function Contact() {
     return (
+      <div>
+
+<Navbar />
+      
         <div class="container" id="contact">
-          <Navbar />
+          
 <Container id="abt">
   <Row>
     <Col>
@@ -30,7 +34,7 @@ function Contact() {
 </Container>
         </div>
        
-
+</div>
 
     );
   }

@@ -1,11 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900,400italic,700italic,900italic); 
 
 #pages {
-    opacity: .7;
+    opacity: .9;
+    padding: 2%;
 }
 
 #proj {
     width: 100px;
+    
     height: 100px;
 }
 
@@ -30,6 +32,7 @@
 #opa {
     opacity: .95;
     transition: all .2s ease-in-out; 
+    padding: 2%;
 }
 
 #opa:hover {
