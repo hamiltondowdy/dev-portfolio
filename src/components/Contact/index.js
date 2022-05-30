@@ -16,7 +16,7 @@ function Contact() {
 <Container id="abt">
   <Row>
     <Col>
-    <div className="col-md">
+    <div className="col-md" id="sax">
     <h3>CONTACT</h3>
           
             <Socials />

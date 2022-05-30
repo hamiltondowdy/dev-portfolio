@@ -4,7 +4,7 @@ import gif from "../../img/5.gif";
 import Pfp from "../../img/pfp.jpg";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Skills from "../../components/Skills";
-
+import Socials from "../Socials";
 import { Container } from "react-bootstrap";
 import Navbar from "../Navbar";
 
@@ -53,6 +53,7 @@ professional education at the University of Texas at Austin.
 
         </Container>
       
+      <Socials />
 
         </div>
    

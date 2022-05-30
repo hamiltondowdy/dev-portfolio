@@ -3,10 +3,14 @@
 
 
   body {
-    min-height: 100vh;
+
     margin: 0;
     padding: 0;
 
+  }
+
+  #abt {
+      padding: 3%;
   }
 
   #aaa {
@@ -26,10 +30,7 @@ justify-content: center;
 padding: 5px;
 } 
 
-.row img  {
-    align-items: center;
-justify-content: center;
-}
+
 
 align-self-center container-fluid {
     align-items: center;
@@ -127,14 +128,7 @@ width: 100%;
     width: 100px;
 }
 
-#abt {
 
-
-    justify-content: center;
-    background-color: rgb(255, 255, 255);
-
-    top: 15%;
-}
 
 
 
@@ -192,7 +186,7 @@ width: 100%;
 }
 
 #abtctr  {
-    margin-top: 25%;
+margin-top: 10%;
     font-size: 21px;
     text-align: center;
   
@@ -208,6 +202,10 @@ width: 100%;
   @media (max-width:600px) {
       .display-7 {
           font-size: 50px;
+      }
+
+      #abtctr {
+          margin-top: 30%;
       }
       
   }
